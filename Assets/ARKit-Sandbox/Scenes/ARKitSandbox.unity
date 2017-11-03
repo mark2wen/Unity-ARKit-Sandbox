@@ -401,11 +401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 114151474313603800, guid: ea3cc151c48314118be8b67034f1d22e, type: 2}
-  - {fileID: 114425961793221016, guid: 5aef158f5db534d7e98dff4b30c7ec61, type: 2}
   - {fileID: 114497251923807846, guid: d7f693b3439bb49f487ddf7ab5ba156c, type: 2}
-  - {fileID: 114919905748530288, guid: 45dc9976e20004daa855b4e6663ce856, type: 2}
-  - {fileID: 114547973087166374, guid: 1c1f8b6053e7141dab768c5662c70b07, type: 2}
-  - {fileID: 114945693057983910, guid: 13022d190efaa9a4b92ce7eee8fd90fa, type: 2}
   uiEntryPrefab: {fileID: 114977858645599092, guid: 2e4a597bfbefe4def973e3d57599542f,
     type: 2}
   objectListParent: {fileID: 734874172}
