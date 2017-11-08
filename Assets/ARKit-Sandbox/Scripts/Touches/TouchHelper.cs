@@ -12,10 +12,20 @@ public class TouchHelper : MonoBehaviour {
     {
         List<Touch> touches = new List<Touch>();
       
+        #if UNITY_EDITOR
         if (EventSystem.current.IsPointerOverGameObject())
         {
             return touches;
         }
+        #else
+        if (Input.touchCount > 0) 
+        {
+            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+            {
+                return touches;
+            }
+        }
+        #endif
 
          touches.AddRange(Input.touches);
  #if UNITY_EDITOR
