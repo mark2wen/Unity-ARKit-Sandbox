@@ -14,7 +14,7 @@ public class SettingsUI : MonoBehaviour {
 	[SerializeField]
 	Toggle InvisibleMenuToggle;
 
-	void Start() 
+	void OnEnable() 
 	{
 		DisplayPlanesToggle.isOn = Settings.Instance.DisplayPlanes;
 		DisplayPointsToggle.isOn = Settings.Instance.DisplayPoints;
